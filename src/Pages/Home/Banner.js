@@ -1,31 +1,17 @@
 import React from 'react';
+import useProgram from '../../hooks/useProgram';
+import Programs from './Programs';
 
 const Banner = () => {
+    const [programs, setProgram]=useProgram({});
     return (
-        <div>
-            <div class="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
-                <div class="carousel-item">
-                    <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=500B67FB" class="rounded-box" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=A89D0DE6" class="rounded-box" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=225E6693" class="rounded-box" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=9D9539E7" class="rounded-box" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=BDC01094" class="rounded-box" />
-                </div>
-                <div class="carousel-item">
-                    <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=7F5AE56A" class="rounded-box" />
-                </div>
-            </div>
+        <div className='grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-1'>
+            {
+                programs.map(program=><Programs 
+                key={program.id}
+                program={program}
+                ></Programs>)
+            }
         </div>
     );
 };

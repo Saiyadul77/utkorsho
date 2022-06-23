@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Academic Program",
+        "description": "JSC, SSC, HSC (Math & ICT)",
+        "img": "https://i.ibb.co/ncfRbNg/jsc1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Admission Program",
+        "description": "School, Cadet",
+        "img": "https://i.ibb.co/WFc0DhB/hsc.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Model Text",
+        "description": "JSC, SSC, HSC (Math & ICT)",
+        "img": "https://i.ibb.co/LzVnhCY/ssc.gif"
+    },
+    {
+        "id": 4,
+        "name": "Training",
+        "description": "Microsoft Office, Graphics, Complete Web Development",
+        "img": "https://i.ibb.co/LzVnhCY/ssc.gif"
+    }
+]
