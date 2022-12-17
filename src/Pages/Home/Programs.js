@@ -1,19 +1,18 @@
 import React from 'react';
+import useProgram from '../../hooks/useProgram';
+import Program from './Program';
 
-const Programs = ({ program }) => {
-    const { name, description,img } = program;
+
+const Programs = () => {
+    const [programs, setProgram] = useProgram({});
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
-            <figure class="px-10 pt-10">
-                <img src={img} alt="Shoes" class="rounded-xl" />
-            </figure>
-            <div class="card-body items-center text-center">
-                <h2 class="card-title">{name}</h2>
-                <p>{description}</p>
-                <div class="card-actions">
-                    <button class="btn btn-primary">Details</button>
-                </div>
-            </div>
+        <div className='grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-1'>
+            {
+                programs.map(program => <Program
+                    key={program._id}
+                    program={program}
+                ></Program>)
+            }
         </div>
     );
 };

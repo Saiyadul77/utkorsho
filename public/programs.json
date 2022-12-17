@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "name": "Class Eight",
+        "description": 
+            {
+                "first": "All Subject Final Revision",
+                "second":"Total Classes 30",
+                "third":"Daily Exams 30(MCQ+CQ)",
+                "forth":"Subject Final Exams 7",
+                "fifth":"Analysis Report & Auto SMS"
+            },
+        
+        "img": "https://i.ibb.co/ncfRbNg/jsc1.jpg",
+        "price": "3000=/"
+    },
+    {
+        "id": 2,
+        "name": "Class Nine",
+        "description":
+            {
+                "first": "Subject: General Math, Higher Math, Physics, Chemistry, Biology, ICT",
+                "second":"Total Classes 150",
+                "third":"Daily Exams 150(MCQ+CQ)",
+                "forth":"Subject Final Exams 6",
+                "fifth":"Analysis Report & Auto SMS"
+            },
+        "img": "https://i.ibb.co/WFc0DhB/hsc.jpg",
+        "price":"15000=/"
+    },
+    {
+        "id": 3,
+        "name": "Class Ten",
+        "description": 
+            {
+                "first": "Subject: General Math, Higher Math, Physics, Chemistry, Biology, ICT",
+                "second":"Total Classes 90",
+                "third":"Daily Exams 90(MCQ+CQ)",
+                "forth":"Subject Final Exams 6",
+                "fifth":"Analysis Report & Auto SMS"
+            }
+        ,
+        "img": "https://i.ibb.co/LzVnhCY/ssc.gif",
+        "price":"15000=/"
+    },
+    {
+        "id": 4,
+        "name": "HSC ICT",
+        "description": 
+            {
+                "first": "Total Classes 30",
+                "second":"Daily Exams 60 (MCQ+CQ)",
+                "third":"Weekly Exams 10(MCQ+CQ)",
+                "forth":"Subject Final Exams 2",
+                "fifth":"Analysis Report & Auto SMS"
+            }
+        ,
+        "img": "https://i.ibb.co/LzVnhCY/ssc.gif",
+        "price": "3000=/"
+    },
+    {
+        "id": 5,
+        "name": "JSC Model Test",
+        "description": 
+            {
+                "first": "Total Exams 30 (MCQ+CQ)",
+                "second":"Total Solve Classes 30",
+                "third":"Weekly Exams 10(MCQ+CQ)",
+                "forth":"Subject Final Exams 2",
+                "fifth":"Analysis Report & Auto SMS"
+            }
+        ,
+        "img": "https://i.ibb.co/LzVnhCY/ssc.gif",
+        "price": "6000=/"
+    },
+    {
+        "id": 6,
+        "name": "SSC Model Test",
+        "description": 
+            {
+                "first": "Total Exams 30 (MCQ+CQ)",
+                "second":"Total Solve Classes 30",
+                "third":"Weekly Exams 10(MCQ+CQ)",
+                "forth":"Subject Final Exams 2",
+                "fifth":"Analysis Report & Auto SMS"
+            }
+        ,
+        "img": "https://i.ibb.co/LzVnhCY/ssc.gif",
+        "price": "10000=/"
+    }
+]

@@ -4,7 +4,8 @@ const useProgram = () => {
     const [programs, setProgram] = useState([]);
 
     useEffect(() => {
-        fetch('program.json')
+        const url= "program.json";
+        fetch(url)
             .then(res => res.json())
             .then(data => setProgram(data));
     }, []);
